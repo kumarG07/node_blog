@@ -1,0 +1,16 @@
+{
+    "type": "mysql",
+    "host": "localhost",
+    "port": 3306,
+    "username": "root",
+    "password": "",
+    "database": "blog_db",
+    "synchronize": true,
+    "logging": true,
+    "entities": [
+        "src/entities/*.ts"
+    ],
+    "cli": {
+        "entitiesDir": "src/entities"
+    }
+}
